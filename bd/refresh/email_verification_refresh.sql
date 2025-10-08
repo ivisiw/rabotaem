@@ -1,0 +1,1 @@
+TRUNCATE TABLE email_verification RESTART IDENTITY;

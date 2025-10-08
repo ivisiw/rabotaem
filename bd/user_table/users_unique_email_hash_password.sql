@@ -1,0 +1,3 @@
+ALTER TABLE users ADD CONSTRAINT unique_email UNIQUE (email);
+ALTER TABLE users ADD COLUMN password_hash VARCHAR(255);
+ALTER TABLE users ALTER COLUMN password_hash SET NOT NULL;
